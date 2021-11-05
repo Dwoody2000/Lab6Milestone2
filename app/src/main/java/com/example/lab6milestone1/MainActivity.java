@@ -1,6 +1,7 @@
 package com.example.lab6milestone1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 
@@ -9,7 +10,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
 
     private final LatLng mDesinationLatLng = new LatLng(43.0757339, -89.4040064);
     private GoogleMap mMap;
